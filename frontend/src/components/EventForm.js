@@ -14,7 +14,7 @@ function EventForm({ method, event }) {
   const navigate = useNavigate();
   const navigation = useNavigation();
 
-  const isSubmittting = navigation.state == "submitting";
+  const isSubmittting = navigation.state === "submitting";
 
   function cancelHandler() {
     navigate("..");
