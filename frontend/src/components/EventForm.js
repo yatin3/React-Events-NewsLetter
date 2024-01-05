@@ -1,15 +1,21 @@
+import { Form,useNavigation } from 'react-router-dom';
 import { useNavigate } from 'react-router-dom';
 
 import classes from './EventForm.module.css';
 
 function EventForm({ method, event }) {
   const navigate = useNavigate();
+  const navigation = useNavigation();
+
+  const isSubmittting = navigation.state == 'submitting';
+
+
   function cancelHandler() {
     navigate('..');
   }
 
   return (
-    <form className={classes.form}>
+    <Form method='post' className={classes.form}>
       <p>
         <label htmlFor="title">Title</label>
         <input id="title" type="text" name="title" required defaultValue={event ? event.title : ''}/>
@@ -30,9 +36,9 @@ function EventForm({ method, event }) {
         <button type="button" onClick={cancelHandler}>
           Cancel
         </button>
-        <button>Save</button>
+        <button disabled={isSubmittting}>{isSubmittting ? 'submitting...' : 'save'}</button>
       </div>
-    </form>
+    </Form>
   );
 }
 
