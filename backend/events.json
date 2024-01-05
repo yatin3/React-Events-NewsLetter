@@ -1,11 +1,1 @@
-{
-  "events": [
-    {
-      "id": "e1",
-      "title": "A dummy event",
-      "date": "2023-02-22",
-      "image": "https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg",
-      "description": "Join this amazing event and connect with fellow developers."
-    }
-  ]
-}
+{"events":[{"title":"another event","image":"https://www.bing.com/images/search?view=detailV2&ccid=vmR0U6Kl&id=F162393A6AA2CBBFA9E764646480B5E1290DF385&thid=OIP.vmR0U6KlBK4H7n95dW0p8gHaEC&mediaurl=https%3a%2f%2fcdn.evbstatic.com%2fs3-s3%2fstatic%2fimages%2fen_US%2fmy_events%2fedit%2fstep_1_event_details%2fevent_image%2fevent_image_on_all_screen_sizes.jpg&exph=2486&expw=4558&q=event+image+url&simid=608009095913278906&FORM=IRPRST&ck=D7503140A36961605724014026837FFA&selectedIndex=0&itb=0&qpvt=event+image+url","date":"2024-01-20","description":"testing event","id":"283e4754-3386-43b4-881c-7ce7aaf3d60c"},{"title":"yatin event","image":"https://www.bing.com/images/search?view=detailV2&ccid=vmR0U6Kl&id=F162393A6AA2CBBFA9E764646480B5E1290DF385&thid=OIP.vmR0U6KlBK4H7n95dW0p8gHaEC&mediaurl=https%3a%2f%2fcdn.evbstatic.com%2fs3-s3%2fstatic%2fimages%2fen_US%2fmy_events%2fedit%2fstep_1_event_details%2fevent_image%2fevent_image_on_all_screen_sizes.jpg&exph=2486&expw=4558&q=event+image+url&simid=608009095913278906&FORM=IRPRST&ck=D7503140A36961605724014026837FFA&selectedIndex=0&itb=0&qpvt=event+image+url","date":"2024-01-16","description":"eee","id":"ea48cc8c-2d80-49a6-80f2-81539d57f716"},{"id":"e1","title":"A dummy event","date":"2023-02-22","image":"https://blog.hubspot.de/hubfs/Germany/Blog_images/Optimize_Marketing%20Events%20DACH%202021.jpg","description":"Join this amazing event and connect with fellow developers."}]}
